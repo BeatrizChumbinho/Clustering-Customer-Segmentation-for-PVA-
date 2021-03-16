@@ -43,106 +43,209 @@ OSOURCE                     Origin Source
                             - A nominal or symbolic field.
 
 TCODE                       Donor title code
+
                             000    = _
+                            
                             001    = MR.
+                            
                             001001 = MESSRS.
+                            
                             001002 = MR. & MRS.
+                            
                             002    = MRS.
+
                             002002 = MESDAMES
+                            
                             003    = MISS
+                            
                             003003 = MISSES
+                            
                             004    = DR.
+                            
                             004002 = DR. & MRS.
+                            
                             004004 = DOCTORS
+                            
                             005    = MADAME
+                            
                             006    = SERGEANT
+                            
                             009    = RABBI
+                            
                             010    = PROFESSOR
+                            
                             010002 = PROFESSOR & MRS.
+                            
                             010010 = PROFESSORS
+                            
                             011    = ADMIRAL
+                            
                             011002 = ADMIRAL & MRS.
+                            
                             012    = GENERAL
+                            
                             012002 = GENERAL & MRS.
+                            
                             013    = COLONEL
+                            
                             013002 = COLONEL & MRS.
+                            
                             014    = CAPTAIN
+                            
                             014002 = CAPTAIN & MRS.
+                            
                             015    = COMMANDER
+                            
                             015002 = COMMANDER & MRS.
+                            
                             016    = DEAN
+                            
                             017    = JUDGE
+                            
                             017002 = JUDGE & MRS.
+                            
                             018    = MAJOR
+                            
                             018002 = MAJOR & MRS.
+                            
                             019    = SENATOR
+                            
                             020    = GOVERNOR
+                            
                             021002 = SERGEANT & MRS.
+                            
                             022002 = COLNEL & MRS.
+                            
                             024    = LIEUTENANT
+                            
                             026    = MONSIGNOR
+                            
                             027    = REVEREND
+                            
                             028    = MS.
+                            
                             028028 = MSS.
+                            
                             029    = BISHOP
+                            
                             031    = AMBASSADOR
+                            
                             031002 = AMBASSADOR & MRS.
+                            
                             033    = CANTOR
+                            
                             036    = BROTHER
+                            
                             037    = SIR
+                            
                             038    = COMMODORE
+                            
                             040    = FATHER
+                            
                             042    = SISTER
+                            
                             043    = PRESIDENT
+                            
                             044    = MASTER
+                            
                             046    = MOTHER
+                            
                             047    = CHAPLAIN
+                            
                             048    = CORPORAL
+                            
                             050    = ELDER
+                            
                             056    = MAYOR
+                            
                             059002 = LIEUTENANT & MRS.
+                            
                             062    = LORD
+                            
                             063    = CARDINAL
+                            
                             064    = FRIEND
+                            
                             065    = FRIENDS
+                            
                             068    = ARCHDEACON
+                            
                             069    = CANON
+                            
                             070    = BISHOP
+                            
                             072002 = REVEREND & MRS.
+                            
                             073    = PASTOR
+                            
                             075    = ARCHBISHOP
+                            
                             085    = SPECIALIST
+                            
+                            
                             087    = PRIVATE
+                            
                             089    = SEAMAN
+                            
                             090    = AIRMAN
+                            
                             091    = JUSTICE
+                            
                             092    = MR. JUSTICE
+                            
                             100    = M.
+                            
                             103    = MLLE.
+                            
                             104    = CHANCELLOR
+                            
                             106    = REPRESENTATIVE
+                            
                             107    = SECRETARY
+                            
                             108    = LT. GOVERNOR
+                            
                             109    = LIC.
+                            
                             111    = SA.
+                            
                             114    = DA.
+                            
                             116    = SR.
+                            
                             117    = SRA.
+                            
                             118    = SRTA.
+                            
                             120    = YOUR MAJESTY
+                            
                             122    = HIS HIGHNESS
+                            
                             123    = HER HIGHNESS
+                            
                             124    = COUNT
+                            
                             125    = LADY
+                            
                             126    = PRINCE
+                            
                             127    = PRINCESS
+                            
+                            
                             128    = CHIEF
+                            
                             129    = BARON
+                            
                             130    = SHEIK
+                            
                             131    = PRINCE AND PRINCESS
+                            
                             132    = YOUR IMPERIAL MAJEST
+                            
                             135    = M. ET MME.
+                            
                             210    = PROF.
+
 
 STATE                       State abbreviation (a nominal/symbolic field)
 ZIP                         Zipcode (a nominal/symbolic field)
