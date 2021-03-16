@@ -331,26 +331,36 @@ DOMAIN                      DOMAIN/Cluster code. A nominal or symbolic field.
                                   1 = Highest SES, 2 = Above average SES,
                                   3 = Below average SES, 4 = Lowest SES.)
 
+
 HOMEOWNR                    Home Owner Flag
                             H = Home owner
                             U = Unknown
 
+
 CHILD03                     Presence of Children age 0-3
                             B = Both, F = Female, M = Male
 
+
 CHILD07                     Presence of Childern age 4-7
+
 CHILD12                     Presence of Childern age 8-12
+
 CHILD18                     Presence of Childern age 13-18
 
+
 NUMCHLD                     NUMBER OF CHILDREN
+
 INCOME                      HOUSEHOLD INCOME
+
 GENDER                      Gender
                             M = Male
                             F = Female
                             U = Unknown
                             J = Joint Account, unknown gender
 
+
 WEALTH1                     Wealth Rating
+
 HIT                         MOR Flag # HIT (Mail Order Response)
                             Indicates total number of known times the donor has
                             responded to a mail order offer other than PVA's.
@@ -397,13 +407,21 @@ DATASRCE                    Source of Overlay Data
                             2 = Polk
                             3 = Both
 
+
 MALEMILI                    % Males active in the Military
+
 MALEVET                     % Males Veterans
+
 VIETVETS                    % Vietnam Vets
+
 WWIIVETS                    % WWII Vets
+
 LOCALGOV                    % Employed by Local Gov
+
 STATEGOV                    % Employed by State Gov
+
 FEDGOV                      % Employed by Fed Gov
+
 
 SOLP3                       SOLICIT LIMITATION CODE P3
                                = can be mailed (Default)
@@ -416,6 +434,7 @@ SOLP3                       SOLICIT LIMITATION CODE P3
                             06 = six solicitations per year
                             12 = twelve solicitations per year
 
+
 SOLIH                       SOLICITATION LIMIT CODE IN HOUSE
                                = can be mailed (Default)
                             00 = Do Not Solicit
@@ -427,9 +446,11 @@ SOLIH                       SOLICITATION LIMIT CODE IN HOUSE
                             06 = six solicitations per year
                             12 = twelve solicitations per year
 
+
 MAJOR                       Major ($$) Donor Flag
                             _ = Not a Major Donor
                             X = Major Donor
+
 
 WEALTH2                     Wealth Rating
                             Wealth rating uses median family income and
@@ -439,6 +460,7 @@ WEALTH2                     Wealth Rating
                             the highest income group and zero being the
                             lowest. Each rating has a different meaning
                             within each state.
+
 
 GEOCODE                     Geo Cluster Code indicating the level geography at which
                             a record matches the census data.
@@ -1217,66 +1239,118 @@ AC2                         Percent Adults Age 60-64
 
 
 ADATE_2                     Date the 17NK promotion was mailed
+
 ADATE_3                     Date the 16NK promotion was mailed
+
 ADATE_4                     Date the 16TK promotion was mailed
+
 ADATE_5                     Date the 16SK promotion was mailed
+
 ADATE_6                     Date the 16LL promotion was mailed
+
 ADATE_7                     Date the 16G1 promotion was mailed
+
 ADATE_8                     Date the 16GK promotion was mailed
+
 ADATE_9                     Date the 16CC promotion was mailed
+
 ADATE_10                    Date the 16WL promotion was mailed
+
 ADATE_11                    Date the 16X1 promotion was mailed
+
 ADATE_12                    Date the 16XK promotion was mailed
+
 ADATE_13                    Date the 15FS promotion was mailed
+
 ADATE_14                    Date the 15NK promotion was mailed
+
 ADATE_15                    Date the 15TK promotion was mailed
+
 ADATE_16                    Date the 15LL promotion was mailed
+
 ADATE_17                    Date the 15G1 promotion was mailed
+
 ADATE_18                    Date the 15GK promotion was mailed
+
 ADATE_19                    Date the 15CC promotion was mailed
+
 ADATE_20                    Date the 15WL promotion was mailed
+
 ADATE_21                    Date the 15X1 promotion was mailed
+
 ADATE_22                    Date the 15XK promotion was mailed
+
 ADATE_23                    Date the 14FS promotion was mailed
+
 ADATE_24                    Date the 14NK promotion was mailed
 
+
 RFA_2                       Donor's RFA status as of 17NK promotion date
+
 RFA_3                       Donor's RFA status as of 16NK promotion date
+
 RFA_4                       Donor's RFA status as of 16TK promotion date
+
 RFA_5                       Donor's RFA status as of 16SK promotion date
+
 RFA_6                       Donor's RFA status as of 16LL promotion date
+
 RFA_7                       Donor's RFA status as of 16G1 promotion date
+
 RFA_8                       Donor's RFA status as of 16GK promotion date
+
 RFA_9                       Donor's RFA status as of 16CC promotion date
+
 RFA_10                      Donor's RFA status as of 16WL promotion date
+
 RFA_11                      Donor's RFA status as of 16X1 promotion date
+
 RFA_12                      Donor's RFA status as of 16XK promotion date
+
 RFA_13                      Donor's RFA status as of 15FS promotion date
+
 RFA_14                      Donor's RFA status as of 15NK promotion date
+
 RFA_15                      Donor's RFA status as of 15TK promotion date
+
 RFA_16                      Donor's RFA status as of 15LL promotion date
+
 RFA_17                      Donor's RFA status as of 15G1 promotion date
+
 RFA_18                      Donor's RFA status as of 15GK promotion date
+
 RFA_19                      Donor's RFA status as of 15CC promotion date
+
 RFA_20                      Donor's RFA status as of 15WL promotion date
+
 RFA_21                      Donor's RFA status as of 15X1 promotion date
+
 RFA_22                      Donor's RFA status as of 15XK promotion date
+
 RFA_23                      Donor's RFA status as of 14FS promotion date
+
 RFA_24                      Donor's RFA status as of 14NK promotion date
+
 
 --------------------------  -------------------------------------------------
                             The following fields are summary variables from
                             the promotion history file.
 
+
 CARDPROM                    Lifetime number of card promotions received to
                             date. Card promotions are promotion type FS, GK,
                             TK, SK, NK, XK, UF, UU.
+
+
 MAXADATE                    Date of the most recent promotion received (in
                             YYMM, Year/Month format)
+
 NUMPROM                     Lifetime number of promotions received to date
+
 CARDPM12                    Number of card promotions received in the last
                             12 months (in terms of calendar months translates
                             into 1603-1702)
+
 NUMPRM12                    Number of promotions received in the last 12
                             months (in terms of calendar months translates
                             into 1603-1702)
@@ -1286,68 +1360,126 @@ NUMPRM12                    Number of promotions received in the last 12
                             file.
 
 RDATE_3                     Date the gift was received for 16NK
+
 RDATE_4                     Date the gift was received for 16TK
+
 RDATE_5                     Date the gift was received for 16SK
+
 RDATE_6                     Date the gift was received for 16LL
+
 RDATE_7                     Date the gift was received for 16G1
+
 RDATE_8                     Date the gift was received for 16GK
+
 RDATE_9                     Date the gift was received for 16CC
+
 RDATE_10                    Date the gift was received for 16WL
+
 RDATE_11                    Date the gift was received for 16X1
+
 RDATE_12                    Date the gift was received for 16XK
+
 RDATE_13                    Date the gift was received for 15FS
+
 RDATE_14                    Date the gift was received for 15NK
+
 RDATE_15                    Date the gift was received for 15TK
+
 RDATE_16                    Date the gift was received for 15LL
+
 RDATE_17                    Date the gift was received for 15G1
+
 RDATE_18                    Date the gift was received for 15GK
+
 RDATE_19                    Date the gift was received for 15CC
+
 RDATE_20                    Date the gift was received for 15WL
+
 RDATE_21                    Date the gift was received for 15X1
+
 RDATE_22                    Date the gift was received for 15XK
+
 RDATE_23                    Date the gift was received for 14FS
+
 RDATE_24                    Date the gift was received for 14NK
 
+
+
 RAMNT_3                     Dollar amount of the gift for 16NK
+
 RAMNT_4                     Dollar amount of the gift for 16TK
+
 RAMNT_5                     Dollar amount of the gift for 16SK
+
 RAMNT_6                     Dollar amount of the gift for 16LL
+
 RAMNT_7                     Dollar amount of the gift for 16G1
+
 RAMNT_8                     Dollar amount of the gift for 16GK
+
 RAMNT_9                     Dollar amount of the gift for 16CC
+
 RAMNT_10                    Dollar amount of the gift for 16WL
+
 RAMNT_11                    Dollar amount of the gift for 16X1
+
 RAMNT_12                    Dollar amount of the gift for 16XK
+
 RAMNT_13                    Dollar amount of the gift for 15FS
+
 RAMNT_14                    Dollar amount of the gift for 15NK
+
 RAMNT_15                    Dollar amount of the gift for 15TK
+
 RAMNT_16                    Dollar amount of the gift for 15LL
+
 RAMNT_17                    Dollar amount of the gift for 15G1
+
 RAMNT_18                    Dollar amount of the gift for 15GK
+
 RAMNT_19                    Dollar amount of the gift for 15CC
+
 RAMNT_20                    Dollar amount of the gift for 15WL
+
 RAMNT_21                    Dollar amount of the gift for 15X1
+
 RAMNT_22                    Dollar amount of the gift for 15XK
+
 RAMNT_23                    Dollar amount of the gift for 14FS
+
 RAMNT_24                    Dollar amount of the gift for 14NK
+
 
 --------------------------  -------------------------------------------------
                             The following fields are summary variables from
                             the giving history file.
 
 RAMNTALL                    Dollar amount of lifetime gifts to date
+
 NGIFTALL                    Number of lifetime gifts to date
+
 CARDGIFT                    Number of lifetime gifts to card promotions to date
+
 MINRAMNT                    Dollar amount of smallest gift to date
+
 MINRDATE                    Date associated with the smallest gift to date
+
 MAXRAMNT                    Dollar amount of largest gift to date
+
 MAXRDATE                    Date associated with the largest gift to date
+
 LASTGIFT                    Dollar amount of most recent gift
+
 LASTDATE                    Date associated with the most recent gift
+
 FISTDATE                    Date of first gift
+
 NEXTDATE                    Date of second gift
+
 TIMELAG                     Number of months between first and second gift
+
 AVGGIFT                     Average dollar amount of gifts to date
+
 
 --------------------------  -------------------------------------------------
 CONTROLN                    Control number (unique record identifier)
@@ -1360,10 +1492,15 @@ HPHONE_D                    Indicator for presence of a published home
                             codes)
 
 RFA_2R                      Recency code for RFA_2
+
 RFA_2F                      Frequency code for RFA_2
+
 RFA_2A                      Donation Amount code for RFA_2
+
 MDMAUD_R                    Recency code for MDMAUD
+
 MDMAUD_F                    Frequecy code for MDMAUD
+
 MDMAUD_A                    Donation Amount code for MDMAUD
 
 --------------------------  -------------------------------------------------
